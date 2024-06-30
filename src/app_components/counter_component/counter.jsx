@@ -10,14 +10,43 @@ function Counter(){
         setName("Mohamed Abdellahi Sidi Mohamed Blal");
     }
 
+    // without updater function
+    // const incrementAge = () => {
+    //     setAge(age + 1);
+    // }
+    // const resetAge = () => {
+    //     setAge(0);
+    // }
+    // const decrementAge = () => {
+    //     setAge(age - 1);
+    // }
+
+    // with updater function
+    // const incrementAge = () => {
+    //     setAge(a => a + 1);
+    //     setAge(a => a + 1);
+    //     setAge(a => a + 1);
+    // }
+
+
+    // const decrementAge = () => {
+    //     setAge(a => a - 1);
+    //     setAge(a => a - 1);
+    //     setAge(a => a - 1);
+    // }
+
     const incrementAge = () => {
-        setAge(age + 1);
+        setAge(age => age + 1);
+        setAge(age => age + 1);
+        setAge(age => age + 1);
     }
     const resetAge = () => {
         setAge(0);
     }
     const decrementAge = () => {
-        setAge(age - 1);
+        setAge(age => age - 1);
+        setAge(age => age - 1);
+        setAge(age => age - 1);
     }
 
     const toggleIsEmployedStatus = () => {
