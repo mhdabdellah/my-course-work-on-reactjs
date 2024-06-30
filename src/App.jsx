@@ -10,7 +10,8 @@
 // import Counter from "./app_components/counter_component/counter"
 // import Input from "./app_components/input_component/input"
 // import ColorPicker from "./app_components/color_picker_component/color_picker"
-import Car from "./app_components/car_component/car"
+// import Car from "./app_components/car_component/car"
+import List from "./app_components/update_list_component/update_list"
 
 function App() {
   // const fruits = [{id:1, name: "apple", quantity:89},{id:2, name: "bananas", quantity:899},{id:3, name: "orange", quantity:779},{id:4, name: "coconut", quantity:39},{id:5, name: "pineaple", quantity:1977}]
@@ -49,8 +50,11 @@ function App() {
     // <>
     //   <ColorPicker />
     // </>
+    // <>
+    //   <Car />
+    // </>
     <>
-      <Car />
+      <List />
     </>
 
 
