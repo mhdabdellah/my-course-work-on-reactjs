@@ -1,0 +1,12 @@
+.student{
+    border: 10px outset rgb(157, 77, 77);
+    background-color: lightblue;    
+    text-align: center;
+    font-family: Arial, sans-serif;
+    padding: 10px;
+    font-size: 2em;
+}
+
+.student p{
+    margin: 0;
+}
